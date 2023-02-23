@@ -1,0 +1,20 @@
+* step-by-step approach is called imperitive approach(i.e we used in vanilla just)
+while in react we use declarative approach
+*custom based html elements are made with uppercase whereas default elements are made 
+with lowercase like div,p,etc
+*inside a componet we can only have one root element which we return
+*components can't just use data stored in other components
+* agar hume root tag ko functional component se krna hai toh hume root tag ki class aur 
+functional component ki class ko add krna padega and sath mai functional component ke 
+beech mai {props.children} likhna padega
+*props stands for properties and are like attributes
+*props are used to make code resuable and it allows us to pass data from another component
+to this component
+*useState fnc allows us to define values as state in which change will reflect
+*if you have data which might change and where changes to data should be reflected
+on the UI then we need state because regular variables can't do that(they don't revaluate
+the whole component) and with state we can change and set values and if they do change
+react will revaluate the whole component in which the state was registered and only that 
+component
+* two way binding means jis se hum data le skte and set bhi kr skte hai
+
